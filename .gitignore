@@ -1,21 +1,26 @@
-# Environment variables
+# Environment variables & secrets
 .env
+.env.*
+secrets.yaml
+config/secrets.yaml
+*.key
+*.pem
 
-# Python virtual environment
-venv/
-.venv/
-env/
-scripts/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+venv/
+.env/
 
-# IDE settings
+# Node / JS (if applicable)
+node_modules/
+
+# IDE files
 .vscode/
 .idea/
 
-# Streamlit
-.streamlit/
+# OS files
+.DS_Store
+Thumbs.db
